@@ -1,0 +1,27 @@
+header {
+  background: url('../../assets/img/header.png') no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+a.banner > .row {
+  background: url('../../assets/img/logo.png') no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin-right: 10px;
+}
+
+a.banner,
+a.banner:hover,
+a.banner:focus,
+a.banner:visited  {
+  text-decoration: none;
+  color: #142a39c4;
+
+}
+
+.player {
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin-top: 32px;
+}
